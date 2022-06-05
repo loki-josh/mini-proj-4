@@ -1,0 +1,78 @@
+{
+  "usersList": [
+    {
+      "name": "GAJULAPARAPU LOKESH",
+      "email": "lokijosh19@gmail.com",
+      "phone": "9573269542",
+      "gender": "male",
+      "date": "2022-05-31T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "name": "JYOTHSNA",
+      "email": "amami@gmail.com",
+      "phone": "9515723793",
+      "gender": "male",
+      "date": "2022-06-13T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "name": "dolly",
+      "email": "dolly@123.gmail.com",
+      "phone": "87639364840",
+      "gender": "female",
+      "date": "2022-06-08T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "name": "john",
+      "email": "john@123.com",
+      "phone": "8776768787",
+      "gender": "male",
+      "date": "2022-06-09T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "name": "roy",
+      "email": "roy@g.com",
+      "phone": "9748373383",
+      "gender": "male",
+      "date": "2022-06-15T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "name": "nayana",
+      "email": "nayana@g.com",
+      "phone": "9856585655",
+      "gender": "female",
+      "date": "2022-06-08T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "name": "sahana",
+      "email": "sahanacmreddy@gmail.com",
+      "phone": "9898989898",
+      "gender": "female",
+      "date": "1999-06-05T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "name": "john jigly",
+      "email": "jony@g.com",
+      "phone": "9845875558",
+      "gender": "male",
+      "date": "2022-06-20T18:30:00.000Z",
+      "id": 8
+    }
+  ],
+  "sahana": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

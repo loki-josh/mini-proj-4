@@ -1,0 +1,44 @@
+<h2 mat-dialog-title>{{title}}</h2>
+<div mat-dialog-content>
+    <form [formGroup]="userForm">
+        <mat-form-field appearance="outline">
+            <mat-label>NAME</mat-label>
+            <input formControlName="name" matInput placeholder="enter full name">
+            <mat-icon matSuffix></mat-icon>
+            <mat-hint>name must be in capital letters </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>EMAIL</mat-label>
+            <input formControlName="email" matInput placeholder="enter full email">
+            <mat-icon matSuffix></mat-icon>
+            <mat-hint> </mat-hint>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <input formControlName="date" matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <label for="gender">
+            <h3>Select gender</h3>
+        </label>
+        <mat-radio-group formControlName="gender" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let item of genderAarry" [value]="item">
+                {{item}}
+            </mat-radio-button>
+        </mat-radio-group>
+
+        <mat-form-field appearance="outline">
+            <mat-label>PHONE</mat-label>
+            <input formControlName="phone" matInput placeholder="enter phone number">
+            <mat-icon matSuffix></mat-icon>
+            <mat-hint> </mat-hint>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" matDialogClose> Close</button>
+    <button style="margin-left:10px;" mat-raised-button color="primary" (click)="addUser()">{{actionBtn}}</button>
+
+
+</div>
